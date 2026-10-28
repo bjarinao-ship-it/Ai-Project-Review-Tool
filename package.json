@@ -1,0 +1,13 @@
+{
+  "name": "ai-project-review-tool",
+  "version": "1.0.0",
+  "description": "Functional MVP web application for autonomous project review and mentorship",
+  "private": true,
+  "scripts": {
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:dev": "python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload",
+    "test": "python -m pytest tests"
+  }
+}
+
